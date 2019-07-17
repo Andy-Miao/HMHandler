@@ -21,7 +21,7 @@
 //MARK: 协议
 @protocol HMHandleDelegate <NSObject>
 @optional
-- (void)didHandlrMessage:(HMMessage *)msg;
+- (void)didHandleMessage:(HMMessage *)msg;
 @end
 
 //MARK: HMHandler类
