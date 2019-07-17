@@ -13,6 +13,7 @@
 		ADE224A422DF6CF4006236EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE224A322DF6CF4006236EF /* Assets.xcassets */; };
 		ADE224A722DF6CF4006236EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE224A522DF6CF4006236EF /* LaunchScreen.storyboard */; };
 		ADE224AA22DF6CF4006236EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE224A922DF6CF4006236EF /* main.m */; };
+		ADE224B322DF6D1E006236EF /* HMHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE224B222DF6D1E006236EF /* HMHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		ADE224A622DF6CF4006236EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE224A822DF6CF4006236EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE224A922DF6CF4006236EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADE224B122DF6D1E006236EF /* HMHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMHandler.h; sourceTree = "<group>"; };
+		ADE224B222DF6D1E006236EF /* HMHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		ADE2249922DF6CF2006236EF /* HMHandler */ = {
 			isa = PBXGroup;
 			children = (
+				ADE224B022DF6D07006236EF /* Handler */,
 				ADE2249A22DF6CF2006236EF /* AppDelegate.h */,
 				ADE2249B22DF6CF2006236EF /* AppDelegate.m */,
 				ADE2249D22DF6CF2006236EF /* ViewController.h */,
@@ -69,6 +73,15 @@
 				ADE224A922DF6CF4006236EF /* main.m */,
 			);
 			path = HMHandler;
+			sourceTree = "<group>";
+		};
+		ADE224B022DF6D07006236EF /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				ADE224B122DF6D1E006236EF /* HMHandler.h */,
+				ADE224B222DF6D1E006236EF /* HMHandler.m */,
+			);
+			path = Handler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE2249F22DF6CF2006236EF /* ViewController.m in Sources */,
+				ADE224B322DF6D1E006236EF /* HMHandler.m in Sources */,
 				ADE224AA22DF6CF4006236EF /* main.m in Sources */,
 				ADE2249C22DF6CF2006236EF /* AppDelegate.m in Sources */,
 			);
